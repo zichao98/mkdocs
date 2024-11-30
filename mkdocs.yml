@@ -2,6 +2,8 @@ site_name: Documentation
 site_url: https://example.com
 theme:
   name: material
+
+  language: en
   font:
     text: Merriweather Sans
     code: Red Hat Mono
@@ -10,6 +12,15 @@ theme:
   # favicon: something.ico
   features:
     - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
   palette:
     # Dark Mode
     - scheme: slate
